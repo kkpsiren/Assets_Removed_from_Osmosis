@@ -10,7 +10,7 @@ from plots import plot_scatter
 from dotenv import load_dotenv
 load_dotenv()
 
-st.set_page_config(page_title="Flipside", layout="wide")
+st.set_page_config(page_title="Assets Removed from Osmosis", layout="wide")
 
 # df = read_flipside(url)
 
@@ -18,11 +18,13 @@ st.set_page_config(page_title="Flipside", layout="wide")
 
 df, df_images, df_minted = load_queries()
 
-radio_choice = st.sidebar.radio("Choose", ("Main", "Individual Addresses"), index=0)
+radio_choice = st.sidebar.radio("Choose", ("Main",
+                                           #"Individual Addresses"
+                                           ), index=0)
 if radio_choice == "Main":
     landing_page(df,df_minted,df_images)
-elif radio_choice == "Individual Addresses":
-    address_page(df,df_minted,df_images)
+#elif radio_choice == "Individual Addresses":
+#    address_page(df,df_minted,df_images)
         
 else:
     st.write("shouldn't be here")
