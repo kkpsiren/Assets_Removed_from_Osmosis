@@ -14,20 +14,16 @@ st.set_page_config(page_title="Assets Removed from Osmosis", layout="wide")
 
 # df = read_flipside(url)
 
-
-
-df, df_images, df_minted = load_queries()
-
-radio_choice = st.sidebar.radio("Choose", ("Main",
-                                           #"Individual Addresses"
-                                           ), index=0)
-if radio_choice == "Main":
-    landing_page(df,df_minted,df_images)
+#radio_choice = st.sidebar.radio("Choose", ("Main",
+#                                           #"Individual Addresses"
+#                                           ), index=0)
+#if radio_choice == "Main":
+landing_page()
 #elif radio_choice == "Individual Addresses":
 #    address_page(df,df_minted,df_images)
         
-else:
-    st.write("shouldn't be here")
+#else:
+#    st.write("shouldn't be here")
 
 
 st.sidebar.markdown("#### Connect")
