@@ -178,5 +178,5 @@ Only 5 users have deposited more than 2000USD since the upgrade. These could be 
 [osmosis_exploit_pool_id](https://app.flipsidecrypto.com/velocity/queries/64d13ffd-9e10-48fb-896f-1ac3965d832b)  
 
 ### Github
-[kkpsiren/Bug_Exploiters](https://github.com/kkpsiren/Bug_Exploiters)
+[kkpsiren/Bug_Exploiters](https://github.com/kkpsiren/assets_removed_from_osmosis)
     """)
