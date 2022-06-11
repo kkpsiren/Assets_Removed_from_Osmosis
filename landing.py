@@ -172,5 +172,11 @@ In total {data['USD'].sum():.0f} USD
                 
 Most of the exploit has happened via Pool 1. Other affected pools are 497, 498, 585 and 13.  
 Only 5 users have deposited more than 2000USD since the upgrade. These could be the exploiters.
-                """)
- 
+
+
+### Queries used
+[osmosis_exploit_pool_id](https://app.flipsidecrypto.com/velocity/queries/64d13ffd-9e10-48fb-896f-1ac3965d832b)  
+
+### Github
+[kkpsiren/Bug_Exploiters](https://github.com/kkpsiren/Bug_Exploiters)
+    """)
